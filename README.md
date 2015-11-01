@@ -1,1 +1,2 @@
 # Digital-History
+Kamila Jambulatova
