@@ -1,2 +1,1 @@
 # Digital-History
-Stephanie Tebe
