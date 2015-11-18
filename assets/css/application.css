@@ -11,3 +11,29 @@ svg {
     display: block;
     max-width: 100%;
 }
+
+/*
+----------------------------------------------------------------
+	Navigation
+---------------------------------------------------------------- */
+
+header {
+    background: #FDFDF8;
+    border: 2px solid #F8F8E9;
+    margin-bottom: 1.5em;
+    padding: 1em 0;
+}
+
+.no-bleed {
+    margin-bottom: 0;
+}
+
+.primary-nav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.primary-nav li {
+    float: left;
+    list-style: none;
+    text-align: center;
