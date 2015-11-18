@@ -65,7 +65,7 @@ ul > li {
 body {
     background: #FFFFFA;
     color: #1B1633;
-    font-family: 'fjord', georgia, serif;
+    font-family: 'georgia', georgia, serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -91,7 +91,7 @@ h1 {
 
 h2 {
     color: #265161;
-    font-family: 'kepler-std', georgia, serif;
+    font-family: 'montserrat', arial, sans-serif;
     font-size: 2.2em;
     font-weight: 400;
     font-style: italic;
