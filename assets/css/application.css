@@ -19,9 +19,17 @@ svg {
 
 header {
     background: #FDFDF8;
-    border: 2px solid #F8F8E9;
+    border: 2px solid #F9E09F;
     margin-bottom: 1.5em;
     padding: 1em 0;
+
+}
+
+footer {
+  background: #FDFDF8;
+  border: 2px solid #F9E09F;
+  margin-bottom: 1.5em;
+  padding: 1em 0;
 
 }
 
@@ -38,3 +46,13 @@ header {
     float: left;
     list-style: none;
     text-align: center;
+
+}
+
+.primary-nav li a {
+    color: #1B1633;
+    display: block;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+
+}
