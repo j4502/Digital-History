@@ -1,1 +1,13 @@
-@import "bootstrap.min.css"
+@import "bootstrap.min.css";
+
+/*
+----------------------------------------------------------------
+	Media
+---------------------------------------------------------------- */
+img,
+iframe,
+video,
+svg {
+    display: block;
+    max-width: 100%;
+}
