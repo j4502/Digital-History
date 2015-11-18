@@ -37,3 +37,47 @@ header {
     float: left;
     list-style: none;
     text-align: center;
+
+
+    ----------------------------------------------------------------
+	Typography
+---------------------------------------------------------------- */
+
+h1, h3, h4, h5, h6 {
+    color: ;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0.5em;
+}
+
+h2 {
+    color: #265161;
+    font-family: 'kepler-std', georgia, serif;
+    font-size: 2.2em;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.1;
+    margin: 1em 0 0.5em 0;
+}
+
+h1 { font-size: 3.6em;}
+h3 { font-size: 2.3em;}
+h4 { font-size: 2.0em;}
+h5 { font-size: 1.6em;}
+h6 { font-size: 1.0em;}
+
+
+a {
+    color: #66285B;
+}
+
+a:visited {
+    color: #66285B;
+}
+
+/*
