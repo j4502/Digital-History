@@ -1,1 +1,20 @@
+body {
+  font-size: 62.5%;
+}
 
+h1, h2 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 4.8em;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.6em;
+}
+
+p {
+  font-family: 'Fjord One', serif;
+  font-size: 1.6em;
+}
