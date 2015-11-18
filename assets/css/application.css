@@ -20,11 +20,15 @@ p {
   font-size: 1.6em;
 }
 
-
  .projectphotos {
   display: block;
   width: auto;
   max-width: 100%;
-  max-height: 90vh; 
+  max-height: 90vh;
   margin: 2em auto;
+}
+.col { 
+  padding: 0  1.5em; }
+.row {
+  margin: 0 -1.5em
 }
