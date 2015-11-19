@@ -15,7 +15,7 @@ header {
 .about-header {
   font-family:'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 1.8em;  
+  font-size: 1.8em;
 }
 h1, h2 {
   font-family:'Montserrat', sans-serif;
@@ -43,10 +43,7 @@ p {
 
 
 
-/*
-----------------------------------------------------------------
-	Media
----------------------------------------------------------------- */
+
 img,
 iframe,
 video,
@@ -55,10 +52,7 @@ svg {
     max-width: 100%;
 }
 
-/*
-----------------------------------------------------------------
-	Navigation
----------------------------------------------------------------- */
+
 
 header {
     background: #FDFDF8;
@@ -91,18 +85,3 @@ footer {
     text-align: center;
 
 }
-
-
-/*
-=======
-}
-
-.primary-nav li a {
-    color: #1B1633;
-    display: block;
-    font-family: 'montserrat', sans-serif;
-    font-size: 1em;
-
-}
->>>>>>> origin/develop
->>>>>>> origin/develop
