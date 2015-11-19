@@ -1,3 +1,6 @@
+@import "bootstrap.min.css";
+
+
 <<<<<<< HEAD
 body {
   font-size: 62.5%;
@@ -21,8 +24,6 @@ p {
   font-size: 1.6em;
 }
 
-<<<<<<< HEAD
-=======
  .projectphotos {
   display: block;
   width: auto;
@@ -31,8 +32,6 @@ p {
   margin: 2em auto;
 }
 =======
->>>>>>> origin/develop
-@import "bootstrap.min.css";
 
 /*
 ----------------------------------------------------------------
