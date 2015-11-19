@@ -11,6 +11,12 @@ header {
   font-size: 1.8em;
 
 }
+
+.about-header {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;  
+}
 h1, h2 {
   font-family:'Montserrat', sans-serif;
   font-weight: 400;
