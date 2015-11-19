@@ -1,7 +1,7 @@
 @import "bootstrap.min.css";
 
 
-<<<<<<< HEAD
+
 body {
   font-size: 62.5%;
 }
@@ -24,14 +24,7 @@ p {
   font-size: 1.6em;
 }
 
- .projectphotos {
-  display: block;
-  width: auto;
-  max-width: 100%;
-  max-height: 90vh;
-  margin: 2em auto;
-}
-=======
+
 
 /*
 ----------------------------------------------------------------
@@ -80,7 +73,7 @@ footer {
     list-style: none;
     text-align: center;
 
-<<<<<<< HEAD
+}
 
 
 /*
