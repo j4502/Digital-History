@@ -21,6 +21,17 @@ p {
   font-size: 1.6em;
 }
 
+<<<<<<< HEAD
+=======
+ .projectphotos {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 90vh;
+  margin: 2em auto;
+}
+=======
+>>>>>>> origin/develop
 @import "bootstrap.min.css";
 
 /*
