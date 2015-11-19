@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-size: 62.5%;
 }
@@ -27,3 +28,69 @@ p {
   max-height: 90vh;
   margin: 2em auto;
 }  
+=======
+@import "bootstrap.min.css";
+
+/*
+----------------------------------------------------------------
+	Media
+---------------------------------------------------------------- */
+img,
+iframe,
+video,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+----------------------------------------------------------------
+	Navigation
+---------------------------------------------------------------- */
+
+header {
+    background: #FDFDF8;
+    border: 2px solid #F9E09F;
+    margin-bottom: 1.5em;
+    padding: 1em 0;
+
+}
+
+footer {
+  background: #FDFDF8;
+  border: 2px solid #F9E09F;
+  margin-bottom: 1.5em;
+  padding: 1em 0;
+
+}
+
+.no-bleed {
+    margin-bottom: 0;
+}
+
+.primary-nav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.primary-nav li {
+    float: left;
+    list-style: none;
+    text-align: center;
+
+<<<<<<< HEAD
+
+
+/*
+=======
+}
+
+.primary-nav li a {
+    color: #1B1633;
+    display: block;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+
+}
+>>>>>>> origin/develop
+>>>>>>> origin/develop
