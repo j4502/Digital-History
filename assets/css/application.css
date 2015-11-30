@@ -1,1 +1,84 @@
+@import "bootstrap.min.css";
 
+
+
+body {
+  font-size: 100%;
+}
+.primary-nav {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+
+}
+
+
+
+h1, h2 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 4.8em;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 3.6em;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.4em;
+}
+
+p {
+  font-family: 'Fjord One', serif;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+
+
+
+
+img,
+iframe,
+video,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+
+
+header {
+    background: #FDFDF8;
+    border: 2px solid #F9E09F;
+    margin-bottom: 1.5em;
+    padding: 1em 0;
+
+}
+
+footer {
+  background: #FDFDF8;
+  border: 2px solid #F9E09F;
+  margin-bottom: 1.5em;
+  padding: 1em 0;
+
+}
+
+.no-bleed {
+    margin-bottom: 0;
+}
+
+.primary-nav {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.primary-nav li {
+    float: left;
+    list-style: none;
+    text-align: center;
+
+}
