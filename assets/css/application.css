@@ -39,10 +39,19 @@ p {
 }
 
 
-/* unvisited link */
-a {
+/* project links */
+.project-blurb a {
   color: black;
 }
+
+/* navigation links */
+.primary-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 3vw;
+
+}
+
 
 
 img,
@@ -53,7 +62,10 @@ svg {
     max-width: 100%;
 }
 
-
+.search-bar {
+  padding-left: .5em;
+  padding-right: 1em;
+}
 
 header {
     background: #FDFDF8;
@@ -78,11 +90,13 @@ footer {
 .primary-nav {
     padding-top: 1em;
     padding-bottom: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
 .primary-nav li {
     float: left;
     list-style: none;
-    text-align: center;
+    text-align: left;
 
 }
