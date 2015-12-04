@@ -66,8 +66,9 @@ svg {
 }
 
 .search-bar {
-  padding-left: .5em;
-  padding-right: 1em;
+  padding-left: 1em;
+  padding-right: 2em;
+  padding-bottom: 2em;
 }
 
 header {
@@ -161,7 +162,7 @@ input[type=search] {
 input[type=search]:focus {
 	width: 130px;
 	background-color: #fff;
-	border-color: #66CC75;
+	border-color: #A0BCFF;
 
 	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
 	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
