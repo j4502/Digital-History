@@ -76,7 +76,7 @@ header {
 }
 
 footer {
-  background: #FDFDF8;
+  background: #F9E09F;
   border: 2px solid #F9E09F;
   margin-bottom: 1.5em;
   padding: 1em 0;
@@ -114,7 +114,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: #F60;
+	color: #A0BCFF;
 }
 h1 {
 	font: 1.7em;
