@@ -66,6 +66,10 @@ svg {
     padding-bottom: 1em;
 }
 
+.logo-image {
+  padding-top: 3em;
+}
+
 .search-bar {
   padding-left: 1em;
   padding-right: 2em;
