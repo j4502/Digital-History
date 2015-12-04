@@ -52,7 +52,9 @@ p {
 
 }
 
-
+.logo-text a {
+  text-decoration: none;
+}
 
 img,
 iframe,
