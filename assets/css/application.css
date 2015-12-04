@@ -113,7 +113,6 @@ footer {
 
 body {
 	background: #fff;
-	color: #666;
 	font: 90%/180% Arial, Helvetica, sans-serif;
 	width: 800px;
 	max-width: 96%;
@@ -133,6 +132,7 @@ h1 {
 }
 p {
 	margin: 0 0 20px;
+  color: black;
 }
 
 
