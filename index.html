@@ -9,20 +9,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
      <link rel="stylesheet" href="assets/css/application.css">
-     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Fjord+One' rel='stylesheet' type='text/css'>
-
+     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7CFjord+One' rel='stylesheet' type='text/css'>
   </head>
 <body>
   <header>
       <div class="container-fluid">
         <div class="col-xs-3">
-          <a href="index.html"> <img src="assets/images/mu-logo.png" alt="Logo of University of Missouri" ></a>
+          <a href="index.html"> <img src="assets/images/mu-logo.png" alt="Logo of University of Missouri" class="logo-image" ></a>
+</div>
+          <div class="col-xs-9"><a href="index.html" ><H1 class="logo-text" >Columbia Public History</H1> </a>
         </div>
       <nav class="primary-nav">
         <ul>
           <li class="col-xs-3"><a href="index.html">Public History</a></li>
           <li class="col-xs-3"><a href="about.html">About</a></li>
-          <li class="col-xs-3">Search</li>
+          <li class="col-xs-3"><div id="navigation-bar" class="clearfix">
+          <form id="demo-2">
+          	<input type="search" placeholder="Search" class="search-bar">
+          </form>
+</div></li>
           <!--COMMENT: Here goes the search function, when we know how to write this-->
         </ul>
       </nav>
@@ -32,30 +37,31 @@
 
   <div class="container-fluid">
 
-        <article>
+        <article class="project-blurb">
         <a href="academichallfire.html">
           <div class="col-xs-12">
             <H2>The Academic Hall Fire</H2>
           </div>
+          <div class="col-xs-12">
+           <img src="assets/images/academic_hall_fire.jpg" alt="Picture of the Academic Hall fire" >
+          </div>
         <div class="col-xs-12">
           <p>On January 9, 1892, Academic Hall, the institution's main building, burned in a fire that completely gutted the building, leaving little more standing than six stone Ionic columns. Under the administration of Missouri Governor David R. Francis, the university was rebuilt, with additions that shaped the modern institution. On January 9, 1892, Academic Hall, the institution's main building, burned in a fire that completely gutted the building, leaving little more standing than six stone Ionic columns. Under the administration of Missouri Governor David R. Francis, the university was rebuilt, with additions that shaped the modern institution. (Wikipedia)</p>
         </div> </a>
-        <div class="col-xs-12">
-         <img src="assets/images/academic_hall_fire.jpg" alt="Picture of the Academic Hall fire" >
-        </div>
       </article>
 
-      <article>
-         <a href="historyofdowntown.html">
+
+      <article class="project-blurb">
+         <a href="historyofdowntown.html" >
              <div class="col-xs-12">
                <h2>History of Downtown</h2>
              </div>
              <div class="col-xs-12">
-           <p>Downtown Columbia is an area of approximately one square mile surrounded by the University of Missouri on the south, Stephens College to the east and Columbia College on the north. The area serves as Columbia's financial and business district and is the topic of a large initiative to draw tourism, which includes plans to capitalize on the area's historic architecture, and Bohemian characteristics. (Wikipedia)</p>
-         </div> </a>
-             <div class="col-xs-12">
             <img src="assets/images/downtowncolumbia.jpeg" alt="Picture of downtown Columbia in the year of 1919">
             </div>
+             <div class="col-xs-12">
+           <p>Downtown Columbia is an area of approximately one square mile surrounded by the University of Missouri on the south, Stephens College to the east and Columbia College on the north. The area serves as Columbia's financial and business district and is the topic of a large initiative to draw tourism, which includes plans to capitalize on the area's historic architecture, and Bohemian characteristics. (Wikipedia)</p>
+         </div> </a>
       </article>
 
 
