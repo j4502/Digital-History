@@ -20,6 +20,12 @@ h1, h2 {
   font-size: 4.0em;
   line-height: normal;
 }
+h2 {
+  padding-top: 0.5em;
+  margin-top: 0em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0em;
+}
 
 h3 {
   font-family: 'Montserrat', sans-serif;
