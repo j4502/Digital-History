@@ -20,6 +20,12 @@ h1, h2 {
   font-size: 4.0em;
   line-height: normal;
 }
+h2 {
+  padding-top: 0.5em;
+  margin-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
 
 h3 {
   font-family: 'Montserrat', sans-serif;
@@ -31,6 +37,18 @@ h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 2.4em;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-style:italic;
+  padding-top: 0.5em;
+  margin-top: 0em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0em;
+  color: black;
 }
 
 p {
@@ -88,6 +106,7 @@ footer {
   background: #F9E09F;
   border: 2px solid #F9E09F;
   margin-bottom: 1.5em;
+  margin-top: 1.5em;
   padding: 1em 0;
   line-height: normal;
 
@@ -205,4 +224,49 @@ input::-webkit-input-placeholder {
 }
 #demo-2 input::-webkit-input-placeholder {
 	color: transparent;
+}
+
+/* See More */
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: 1.4em;
+  font-family: 'Fjord One', serif;
+  line-height: 2;
+  background: #FDFDF8;
+  border: 2px solid #F9E09F;
+  border-radius: .25em;
+  margin-bottom: 1em;
+}
+
+/* Other style */
+body {
+  padding: 2%;
 }
